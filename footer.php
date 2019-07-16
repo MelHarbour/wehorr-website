@@ -27,11 +27,6 @@
           
          
     </div><!--end footer div-->
-     	<div class="wrapper">
-          		<div class="credit clearfix">
-                <a href="http://webdirections.co.uk" title="Hampshire Website Design and Hosting, Cheap websites hampshire" target="blank">Designed by Web Directions</a>
-                </div>
-          </div><!--end wrapper-->
 </footer> 
 
 <?php wp_footer(); ?> 
