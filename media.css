@@ -1,0 +1,390 @@
+
+@media screen and (max-width: 1500px) {
+
+.header-banner-content-container{
+	width:15%;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 1366px) {
+
+
+.nivo-caption{
+	top:10%;
+	height:inherit;
+}
+
+.nivo-caption h1{
+ font-size:1.5em;
+}
+
+
+.nivo-caption h1{
+	margin-top:45%;
+}
+
+#nav ul{
+width:92%;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 1162px) {
+
+.nivo-caption {
+    width: 92%;  
+}
+.header-banner-content{
+	width: 92%;  
+}
+
+
+}
+
+
+/********* 1024 ***********/
+
+@media screen and (max-width: 1024px) and (orientation : landscape){
+
+body {
+  font-size:16px;
+}
+
+
+.theme-default .nivo-directionNav a {
+	width:30px;
+	height:30px;
+	background: url(images/arrows-mobile.png) no-repeat;
+	top: 45%;
+
+}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	
+}
+.nivo-caption h1{
+	margin-top:20%;
+}
+.captioncontent-container{
+	width:100%;
+}
+.nivoSlider .nivo-caption img{
+width:45%;
+}
+
+.col {
+  width: 45%;
+ 
+}
+
+/*.header-banner-content{
+  	top:0;
+}*/
+
+.main-content ul,  .main-content-column ul, .main-left ul, .main-right ul{
+   margin: 1% 0;
+   padding: 0 1.3em;
+}
+
+
+}
+
+/* iPads/tablets (portrait) ----------- */
+/*@media screen and (max-width: 768px) {*/
+@media screen and (max-width: 900px) {
+
+body {
+  margin-top:0;
+}
+.dropdown-toggle{
+	display:block;
+	float:right;
+	padding:4%;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:10;
+}
+
+.dropdown-toggle img{
+	float:right;
+	display:block;
+}
+
+.dropdown-toggle a{
+	width:50px;
+}
+
+.dropdown {
+  display:none;
+  /*width: 30%;
+  float: right;*/
+}
+
+#nav.mobile{
+	display:block;
+	/*width: 100%;*/
+	float: right;
+	position: absolute;
+	/*top: 0;*/
+	right: 0;
+	z-index: 20;
+	background-color:none;
+	font-size:1.1em;
+	background-color:rgba(46, 49, 146, 0.8);
+
+}
+
+#nav.desktop{
+	display:none;
+}
+
+
+#nav ul{
+width: 50%;
+float: right;
+margin: 0;
+}
+
+#nav.mobile ul li{
+float:none;
+width:auto;
+margin-right:30%;
+background-color:none!important;
+border-right:1px solid #fff;
+border-left:1px solid #fff;
+}
+
+#nav.mobile ul li ul li{
+float:none;
+width:auto;
+margin-right:0;
+background-color:none!important;
+border-right:none;
+border-left:none;
+}
+
+
+#nav ul li ul{
+position: absolute;
+top: 0;
+z-index: 10;
+font-size: 1em;
+width: 100%;
+display: none;
+float: none;
+right: 100%;
+left:inherit;
+background-color:#f24fb0;
+}
+
+
+.captioncontent-container{
+	width:100%;
+}
+
+.theme-default .nivo-directionNav a {
+	width:30px;
+	height:30px;
+	background: url(images/arrows-mobile.png) no-repeat;
+	top: inherit;
+	bottom:0;
+
+}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	
+}
+
+.theme-default .nivo-prevNav {
+right: 28px;
+left:inherit;
+}
+
+
+.nivoSlider .nivo-caption img{
+width:45%;
+}
+
+.nivo-caption h1{
+ 	font-size:1.8em;
+	margin-top:10%;
+}
+
+/*.header-banner-content{
+  	top:2%;
+}*/
+
+.sidebar {
+  background-color: #ececec;
+    float: left;
+    margin-bottom: 1em;
+    padding: 1.5% 2%;
+    width: 96%;
+
+}
+
+.sidebar img {
+	/*width:30%;*/
+	height:inherit;
+	float:right;
+	margin-left:2%;
+}
+
+.main-content-column{
+ width: 100%;
+ margin-right:0;
+}
+
+
+.main-left{
+	width:100%;
+	float:left;
+	margin-right:0;
+	/*margin-bottom:4%;*/
+}
+
+.main-right{
+	width:100%;
+	float:left;
+}
+
+.main-content ul,  .main-content-column ul, .main-left ul, .main-right ul{
+   margin: 1% 0;
+   padding: 0 1.3em;
+}
+
+/*homepage boxes*/
+.homepage-box{
+	margin-bottom:4%;
+}
+
+
+/*.homepage-box-last{
+	margin-bottom:0;
+}*/
+
+.homepage-sponsors{
+	margin-bottom:4%;
+}
+
+#footer .main-left{
+	width:68%;
+	float:left;
+	margin-right:4%;
+	margin-bottom:0;
+}
+
+#footer .main-right{
+	width:28%;
+	float:left;
+}
+
+.col {
+  width: 45%;
+ 
+}
+
+.main-right .footwidgets {
+padding: 6% 2% 2% 2%;
+}
+
+.pennant-name, .pennant-description, .trophy{
+	width:70%;
+	margin-right:0;
+}
+
+.pennant-name{
+	width:24%;
+	margin-right:3%;
+}
+
+.trophy{
+	width: 100%;
+	margin-top:2%;
+}
+
+}
+
+/********** mobile screens 320px to 414px wide ***********/
+
+@media screen 
+and (max-width: 414px){
+
+
+body { 
+	font-size: 0.7em; 
+}
+
+.nivo-caption h1{
+ 	font-size:1.5em;
+	margin-top:5%;
+}
+
+
+.col {
+  width: 95%;
+ 
+}
+
+
+.main-right .footwidgets {
+padding: 12% 2% 2% 2%;
+}
+
+.dropdown-toggle img{
+	width:80%;
+}
+
+
+#nav ul{
+width: 60%;
+}
+
+#nav.mobile ul li{
+margin-right:32%;
+
+}
+/*.main-right img, .main-left img{
+width:100%;
+height:inherit;
+}*/
+
+.table-container-col-last{
+	float:right;
+	
+}
+.main-content ul,  .main-content-column ul, .main-left ul, .main-right ul{
+   margin: 1% 0;
+   padding: 0 1.5em;
+}
+
+}
+
+/* Landscape iphone 5 */
+/* Smartphones (landscape) ----------- */
+@media screen 
+and (max-width: 736px)
+and (orientation : landscape) {
+
+
+/*body { 
+	font-size: 10px; 
+}*/
+
+body, .main-left p, .main-right p, .main-content p, .main-content ul{
+	 -webkit-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; 
+}
+
+
+}
+	
