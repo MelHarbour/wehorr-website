@@ -8,28 +8,7 @@ Template Name: Home
 <?php get_header(); ?>
 
 	<figure>
-    <?php if(get_field('slider')): ?>
- 		<div class="theme-default">
-      
-             <div id="slider" class="nivoSlider">
-             
-                <?php while(has_sub_field('slider')): ?>
-           		<?php $image = get_sub_field('slider_image'); ?>
-                <img src="<?php echo $image['url']; ?>" title="#caption<?php echo $image['id']; ?>"  >
-           		<?php endwhile; ?>
-               
-            </div><!--end slider-->
-            
-        </div><!--end theme default--> 
-     
-                <?php while(has_sub_field('slider')): ?>
-                <?php $image = get_sub_field('slider_image'); ?>
-                <div id="caption<?php echo $image['id']; ?>" class="nivo-html-caption">
-                <div class="captioncontent-container heading-<?php the_sub_field('caption_underline_colour'); ?>"><?php the_sub_field('slider_content'); ?></div>
-                </div>
-                <?php endwhile; ?>
-               
-    <?php endif; ?>
+	<?php get_sub_field('slider_content') ?>
     </figure> 
 
     
