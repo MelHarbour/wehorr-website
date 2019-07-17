@@ -8,7 +8,7 @@ Template Name: Home
 <?php get_header(); ?>
 
 	<figure>
-	<?php get_sub_field('slider_content') ?>
+	<?php get_field('content') ?>
     </figure> 
 
     
