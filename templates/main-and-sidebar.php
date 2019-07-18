@@ -38,17 +38,9 @@ Template Name: Main and Additional Content Sidebar
     
    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
    	 <main>
-            <?php if (get_the_content()): ?>
             <div class="main-content-column">
             <?php the_content(); ?>	
             </div> 
-            <?php endif; ?>
-                
-            <?php if(get_field('main_content_column')): ?>
-            <div class="main-content-column">
-			<?php the_field('main_content_column'); ?>
-            </div>
-            <?php endif; ?>
                 
             <aside>
             <?php if(get_field('additional_content')): ?> 
