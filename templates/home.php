@@ -98,11 +98,9 @@ Template Name: Home
                     </div>
                     
                     <div class="main-right">
-                    <?php if(get_field('ebb_tide_flag_warning')): ?>
                     <div class="no-para">
-                        <?php the_field('ebb_tide_flag_warning'); ?>
+                        <p><iframe src="http://www.pla.co.uk/templates/widgets/trafficWidget.cfm" width="100%" height="335" frameborder="0" scrolling="yes"></iframe></p>
                     </div>
-                    <?php endif; ?>
                     </div>
             </div><!--end main content-->
         </main>
