@@ -18,15 +18,6 @@ register_sidebar(array(
   'before_title' => '<h3>',
   'after_title' => '</h3>'
 ));
-register_sidebar(array(
-  'name' => __( 'Ticker Tape' ),
-  'id' => 'ticker-tape',
-  'description' => __( 'Widgets in this area will be shown in the ticker tape across the top of the screen.' ),
-  'before_widget' => '<div class="tape"><marquee>',  
-  'after_widget' => '</marquee></div>',  
-  'before_title' => '',
-  'after_title' => ''
-));
 
 register_sidebar(array(
   'name' => __( 'Footer Sidebar 1' ),
