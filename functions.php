@@ -9,15 +9,6 @@ function register_my_menus() { //dynamic navigation
   );
 }
 add_action( 'init', 'register_my_menus' );
-register_sidebar(array(
-  'name' => __( 'Header Sidebar' ),
-  'id' => 'header-sidebar',
-  'description' => __( 'Widgets in this area will be shown on the right-hand side of the header.' ),
-  'before_widget' => '<div class="headwidgets">',  
-  'after_widget' => '</div>',  
-  'before_title' => '<h3>',
-  'after_title' => '</h3>'
-));
 
 register_sidebar(array(
   'name' => __( 'Footer Sidebar 1' ),
@@ -36,15 +27,7 @@ register_sidebar(array(
   'after_widget' => '</div>',  
   'before_title' => '<h3>',
   'after_title' => '</h3>'
-));register_sidebar(array(
-  'name' => __( 'Footer Sidebar 3' ),
-  'id' => 'footer-sidebar-3',
-  'description' => __( 'Widgets in this area will be shown in the footer.' ),
-  'before_widget' => '<div class="footwidgets">',  
-  'after_widget' => '</div>',  
-  'before_title' => '<h3>',
-  'after_title' => '</h3>'
-));                    
+));                
 function themeslug_theme_customizer( $wp_customize ) {
     // Fun code will go here
 	$wp_customize->add_section( 'themeslug_logo_section' , array( //creates section for our logo upload to

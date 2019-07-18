@@ -13,13 +13,8 @@
                 <?php dynamic_sidebar('Footer Sidebar 2'); ?>
                </div> 
                <div class="main-right">
-                <?php dynamic_sidebar('Footer Sidebar 3'); ?>
+                <img width="66" height="80" src="/wp-content/uploads/2019/07/womenseight-footerlogo.png" class="image wp-image-1465  attachment-full size-full" alt="Women's Eights Head of the River Race" style="max-width: 100%; height: auto;">
                </div>
-                
-                
-                <div class="social-footer">
-                <?php dynamic_sidebar('Header Sidebar'); ?>
-                </div>
    
           </div><!-- #fatfooter -->     
           </div><!--end wrapper-->

@@ -41,10 +41,6 @@
 </script>
   
 <header>
-       
-        
-     	<?php dynamic_sidebar('Ticker Tape'); ?>
-     	
         <nav>
            <div id="nav" class="mobile">
                  <a href="#" class="dropdown-toggle" title="Click to view navigation"><img src="<?php bloginfo( 'template_directory' ); ?>/images/mobile-nav-icon.png" alt="Navigation"></a>
