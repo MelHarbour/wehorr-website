@@ -8,7 +8,11 @@ Template Name: Home
 <?php get_header(); ?>
 
 	<figure>
-	<?php the_field('content') ?>
+	  <?php
+		remove_filter('acf_the_content', 'wpautop');
+		the_field('content');
+		add_filter('acf_the_content', 'wpautop');
+	  ?>
     </figure> 
 
     
