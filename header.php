@@ -42,12 +42,12 @@
   
 <header>
         <nav>
-           <div id="nav" class="mobile">
+           <div class="mobile">
                  <a href="#" class="dropdown-toggle" title="Click to view navigation"><img src="<?php bloginfo( 'template_directory' ); ?>/images/mobile-nav-icon.png" alt="Navigation"></a>
                  <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'dropdown'  ) ); ?>
            </div>
             
-            <div id="nav" class="desktop">
+            <div class="desktop">
                  <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             </div>  
         </nav>
