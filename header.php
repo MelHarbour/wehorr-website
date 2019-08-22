@@ -16,7 +16,7 @@
      <link href="<?php bloginfo( 'template_directory' ); ?>/style.css" rel="stylesheet" media="all" type="text/css" />
      <link rel='stylesheet' type='text/css'  media='all' href='<?php bloginfo( 'template_directory' ); ?>/media.css'>
      <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
-     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
      <?php if ( get_theme_mod( 'favicon_logo' ) ) : ?>
      <link rel="shortcut icon" href="<?php echo esc_url( get_theme_mod( 'favicon_logo' ) ); ?>" />
      <?php endif; ?>
