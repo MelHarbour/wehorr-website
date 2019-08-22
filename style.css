@@ -1054,13 +1054,13 @@ tr:last-child {
 	
 	a { color:  #16c1f3; }
 	
-	#nav.desktop, #nav.desktop ul li { background-color:  #2e3192; }
+	nav .desktop, nav .desktop ul li { background-color:  #2e3192; }
 	
-	#nav.desktop ul li ul{background-color: #16c1f3;}
-	#nav ul li:hover{background-color:#16c1f3;}
+	nav .desktop ul li ul{background-color: #16c1f3;}
+	nav ul li:hover{background-color:#16c1f3;}
 	
-	#nav li.current-menu-item { background-color: #16c1f3; }
-	#nav li.current_page_item  { background-color: #16c1f3; }
+	nav li.current-menu-item { background-color: #16c1f3; }
+	nav li.current_page_item  { background-color: #16c1f3; }
 
 	#footer{
 	border-top: 1px solid #16c1f3;
