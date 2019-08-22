@@ -24,16 +24,23 @@ figure{
 	margin:0;
 }
 
+@font-face {
+	font-family: DidactGothic;
+	src: url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+	font-display: auto;
+}
 
 body {
   /*background-color: #19173e;*/
-  font-family: 'Didact Gothic', Arial, sans-serif;
+  font-family: DidactGothic, Arial, sans-serif;
   color: #a9a6a3;
   font-size:16px;
   margin: 0px;
   padding: 0px;
   margin-top:42px;
 }
+
+
 
 
 #main-wrapper{
