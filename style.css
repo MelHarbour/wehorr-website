@@ -34,9 +34,6 @@ body {
   margin-top:42px;
 }
 
-
-
-
 #main-wrapper{
   /*background-image:url(images/roses-tile.jpg)!important;*/
   background-repeat:repeat;
@@ -49,28 +46,6 @@ body {
   max-width: 1192px;
   margin: 0px auto;
   background-color:#fff;
-}
-
-
-#header {
-  width: 100%;
-  background-color: #19173e;
-  padding: 0px;
-  float:left;
-}
-
-.tape {
-	background-color: #c21103;
-	padding:0.5em 0;
-	font-weight:400;
-	font-size:1.1em;
-	display:inline-block;
-	width:100%;
-}
-
-marquee {
-	color:#fff;
-	font-size:0.9em;
 }
 
 .header-half {
@@ -137,21 +112,6 @@ marquee {
 .headwidgets a:hover {
   text-decoration: underline;
 }
-
-#header h1 {
-  font-size: 2.5em;
-  color: #999;
-  margin: 0px;
-  border-bottom: none;
-}
-
-#header h2 {
-  font-size: 1.2em;
-  margin: 0px;
-  border-bottom: none;
-}
-
-
 
 h2#site-description {
   margin: 0px;
@@ -796,23 +756,6 @@ p {
   padding: 0.5em 0;
   /*font-size: 0.9em;*/
   line-height: 1.2em;	
-}
-
-.credit{
-  float: left;
-  margin-left:4%;	
-  padding-bottom:8%;
-}
-
-.credit a {
-  /*color: #ffffff;*/
-  text-decoration: none;
-  font-size: 0.6em;
-}
-
-.credit a:hover {
- /* color: #ffffff;*/
-  text-decoration: underline;
 }
 
 div.boxBorder {
