@@ -12,9 +12,9 @@
      </title>
      <meta name="Keywords" content="river race,womens rowing,rowing,eights head,boats,sport,river racing">
 	 <meta name="description" content="Welcome to the Women's Eights Head of the River Race website. Here you will find all you need to know about the race, draw and results">   
-     <link href="<?php bloginfo( 'template_directory' ); ?>/nivo-slider.css" rel="stylesheet" media="all" type="text/css" /> 
-     <link href="<?php bloginfo( 'template_directory' ); ?>/style.css" rel="stylesheet" media="all" type="text/css" />
-     <link rel='stylesheet' type='text/css'  media='all' href='<?php bloginfo( 'template_directory' ); ?>/media.css'>
+     <link href="/nivo-slider.css" rel="stylesheet" media="all" type="text/css" /> 
+     <link href="/style.css" rel="stylesheet" media="all" type="text/css" />
+     <link rel='stylesheet' type='text/css'  media='all' href='/media.css'>
      <link href='https://fonts.googleapis.com/css?family=Didact+Gothic&display=auto' rel='stylesheet' type='text/css'>
      <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
      <?php if ( get_theme_mod( 'favicon_logo' ) ) : ?>
