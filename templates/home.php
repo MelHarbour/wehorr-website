@@ -114,7 +114,7 @@ Template Name: Home
      	<?php endwhile; else: ?><p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?> 
        
 </div><!-- end container div-->
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="/wp-content/themes/wehorr-website/scripts/jquery.nivo.slider.pack.js"></script>
     <script type="text/javascript">
 
      jQuery(document).ready(function($) {
