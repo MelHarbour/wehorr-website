@@ -25,9 +25,9 @@ figure{
 }
 
 body {
-  /*background-color: #19173e;*/
+  background-color: #ffffff;
   font-family: 'Didact Gothic', Arial, sans-serif;
-  color: #a9a6a3;
+  color: #757575;
   font-size:16px;
   margin: 0px;
   padding: 0px;
@@ -35,7 +35,6 @@ body {
 }
 
 #main-wrapper{
-  /*background-image:url(images/roses-tile.jpg)!important;*/
   background-repeat:repeat;
   float:left;
   width:100%;
@@ -301,7 +300,7 @@ position: relative;
 .sidebar {
   width: 25%;
   float: left;
-  color:#777777;
+  color:#757575;
 }
 
 .sidebar img {
@@ -394,12 +393,6 @@ height:inherit;
     max-width:30%;
 	height:inherit; 
 	padding-bottom:0.5em;
-}
-	
-.sidebar {
-  width: 25%;
-  float: left;
-  color:#777777;
 }
 
 .sidebar img {
@@ -993,7 +986,7 @@ tr:last-child {
 
 
 /* Main color */
-	body { color:  #777777; background-color: #ffffff; }
+	
 	
 	a { color:  #16c1f3; }
 	
@@ -1014,7 +1007,7 @@ tr:last-child {
 	h1, h2, h4, h5, h6 {color:#16c1f3; }
 
 h3 {
-	color: #777777;
+	color: #757575;
 	font-weight: bold;
 }
 
