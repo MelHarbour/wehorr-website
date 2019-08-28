@@ -103,7 +103,7 @@ Template Name: Home
                     
                     <div class="main-right">
                     <div class="no-para">
-                        <p><iframe title="PLA" src="http://www.pla.co.uk/templates/widgets/trafficWidget.cfm" width="100%" height="335" frameborder="0" scrolling="yes"></iframe></p>
+                        <p><iframe title="PLA" src="https://www.pla.co.uk/templates/widgets/trafficWidget.cfm" width="100%" height="335" frameborder="0" scrolling="yes"></iframe></p>
                     </div>
                     </div>
             </div><!--end main content-->
